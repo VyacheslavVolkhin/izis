@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+</head>
+
+<body>
+    <!-- wrap -->
+    <div class="wrap">
+
+
+        <!-- header -->
+        <header class="header">
+            <div class="inner-wrap">
+                <div class="logo-wrap">
+                    <a href="" class="logo"><span>IZI</span>Stroy</a>
+                    <div class="logo-info">Единая система покупки товаров для ремонта</div>
+                </div>
+                <div class="order-wrap">
+                    <a href="" class="btn button-second button-border button-small js-popup-open" data-popup="popup-order">Сделать заказ с доставкой</a>
+                </div>
+                <div class="contacts-wrap">
+                    <div class="location-wrap">
+                        <a href="" class="btn-header-location">Москва и МО</a>
+                    </div>
+                    <div class="phone-wrap">
+                        <a href="tel:80000000000" class="link-phone">+7(000)000-00-00</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!--page-->
+        <div class="page">
+            <br><br><br><br><br><br><br><br><br><br>
+            <ul>
+                <li><a href="main.html">Main 01</a></li>
+                <li><a href="main02.html">Main 02</a></li>
+            </ul>
+            <br><br><br><br><br><br><br><br><br><br>
+        </div>
+        <!--/page-->
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-main-panel cnt-section">
+                <div class="inner-wrap">
+                    <div class="logo-wrap">
+                        <a href="" class="logo"><span>IZI</span>Stroy</a>
+                        <div class="logo-info">Единая система покупки товаров для ремонта</div>
+                    </div>
+                    <div class="contacts-wrap">
+                        <div class="email-wrap">
+                            <a href="mailto:info@mail.ru" class="btn-cnt cnt-email">info@mail.ru</a>
+                        </div>
+                        <div class="phone-wrap">
+                            <a href="tel:80000000000" class="btn-cnt cnt-phone">+7(000)000-00-00</a>
+                            <a href="" class="btn-action-ico button-soc">
+                                <img src="./img/icons/soc-wa.svg" alt="">
+                            </a>
+                            <a href="" class="btn-action-ico button-soc">
+                                <img src="./img/icons/soc-vb.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="soc-wrap">
+                            <div class="soc-title">Мы в соц. сетях</div>
+                            <div class="soc-buttons">
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc-yt.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc-inst.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc-tw.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc-fb.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rate-wrap">
+                        <img src="./img/main/yandex.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-panel cnt-section">
+                <div class="inner-wrap">
+                    <div class="copy-wrap">2022. Все права защищены. <br>Политика конфеденциальности</div>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+
+        <!--popup-box-->
+        <div class="popup-box js-popup" data-popup="popup-order">
+            <div class="popup-content-block">
+                <a href="" class="btn-action-ico ico-close js-popup-close"></a>
+                <div class="popup-title-wrap">
+                    <div class="popup-title">Заказать с доставкой</div>
+                    <p>Оставьте свои контакты и наш менеджер перезвонит вам в течение нескольких минут</p>
+                </div>
+                <form action="/" class="popup-form-wrap">
+                    <div class="frm-row">
+                        <input type="text" class="form-input" placeholder="Ваше имя">
+                    </div>
+                    <div class="frm-row">
+                        <input type="tel" class="form-input" placeholder="Телефон">
+                    </div>
+                    <div class="frm-row row-center">
+                        <div class="frm-field-file js-field-file">
+                            <input type="file">
+                            <a href="" class="btn-action-file js-file-button" data-title="Прикрепить смету">Прикрепить смету</a>
+                        </div>
+                    </div>
+                    <div class="frm-row row-info">Даю согласие на обработку Персональных данных</div>
+                    <div class="frm-row-submit">
+                        <button type="submit" class="btn">Заказать</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--/popup-box-->
+
+    </div>
+    <!-- /wrap -->
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.maskedinput.min.js"></script>
+    <script src="./js/scripts.js"></script>
+
+</body>
+
+</html>
